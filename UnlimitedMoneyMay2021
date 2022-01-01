@@ -1,0 +1,4 @@
+local A_1 = "Legendary"
+local A_2 = -999999999999
+local Event = game:GetService("ReplicatedStorage").Events.OpenBox
+Event:InvokeServer(A_1, A_2)
